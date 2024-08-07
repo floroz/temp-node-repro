@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["esnext", "dom"],
+    "module": "Node16",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowJs": false,
+    "strict": true,
+    "moduleResolution": "Node16",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    //
+    "outDir": "dist"
+  },
+  "include": ["index.ts"],
+  "exclude": ["**/node_modules/**"]
+}
